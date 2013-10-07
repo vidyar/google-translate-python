@@ -4,7 +4,6 @@ python:
   - "3.3"
 install: 
   - python setup.py install
-before_script: mkdir -p shippable/testresults
 script:
   - python -munittest test shippable/testresults
 notifications:
