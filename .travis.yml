@@ -7,4 +7,5 @@ install:
 
 script:
   - python -munittest test
-
+notifications:
+ email : false
